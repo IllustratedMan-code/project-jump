@@ -3,7 +3,7 @@
 }:
 
 rustPlatform.buildRustPackage rec {
-  pname = "project-manager";
+  pname = "project-jump";
   version = "0.1";
 
   src = lib.cleanSource ./.;
@@ -14,6 +14,6 @@ rustPlatform.buildRustPackage rec {
     description = "A project manager tool";
     license = lib.licenses.mit;
     maintainers = [ ];
-    mainProgram = "project-manager";
+    mainProgram = "project-jump";
   };
 }

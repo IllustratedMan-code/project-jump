@@ -89,4 +89,6 @@ source ~/.config/nushell/pj.nu
 
 </details>
 
+Also install [`fzf`](https://github.com/junegunn/fzf) as certain features may be unavailable without it.
+
 You should be good to go! Open a new shell and type `pj` to get started.
